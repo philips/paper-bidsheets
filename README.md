@@ -18,7 +18,7 @@ convert -density 76 input.pdf output-%d.png
 3. Run the script over the files
 
 ```
-for i in `seq 1 5`; do go run main.go prompt.xt output-$i.png ; done
+for i in `seq 1 5`; do go run main.go prompt.txt output-$i.png ; done
 ```
 
 # TODO
