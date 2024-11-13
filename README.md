@@ -25,3 +25,5 @@ for i in `seq 1 5`; do go run main.go prompt.xt output-$i.png ; done
 
 - Experiment with lower density
 - Experiment with llava
+- Link to bidsheet template
+- Add sample PDF and PNGs
